@@ -1,0 +1,263 @@
+body{
+    padding-top: 70px;
+}
+a{
+    text-decoration: none;
+}
+.scroll-top{
+    color: #DDD;
+    background: #272727;
+    text-align: center;
+    position: fixed;
+    right: 15px;
+    bottom: 10px;
+    z-index: 9999;
+    border: 3px solid #d04949;
+    border-radius: 50%;
+    padding: 7px;
+    display: none;
+    cursor: pointer;
+}
+.scroll-top:hover{
+    background: #444;
+}
+.fa-3x{
+    font-size: 2em;
+}
+
+/* start nav */
+.navbar>.container .navbar-brand, 
+.navbar>.container-fluid .navbar-brand{
+    margin-left: 80px;
+    padding: 25px;
+    color: #eee;
+    font-size: 40px;
+}
+
+.navbar{
+    min-height: 70px;
+}
+.navbar-toggle{
+    margin-top: 18px;
+}
+.nav-button{
+    margin-top: 20px;
+    margin-right: 80px;
+    font-size: 15px;
+    width: 200px;
+    padding: 5px;
+    float: right;
+    background: #eee;
+    border: 0;
+    outline: 0;
+    border-radius: 20px;
+    color: #333;
+    font-weight: bold;
+    height: 35px;
+}
+.nav-button a{
+    text-decoration: none;
+    color: #286090;
+}
+.nav-button a:hover,
+.nav-button:hover a 
+{
+    text-decoration: none;
+    color: #FFF;
+}
+/* end nav */
+.table-price{
+    width: 100%;
+    background: #EEE;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+.second-part{
+    width: 78%;
+    margin-left: 2%;
+    float: right;
+}
+.table-price .box-price{
+    background: #FFF;
+    overflow: hidden;
+    height: 100%;
+    border: 1px solid #DDD;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 3px #ccc,
+        -2px -2px 2px #ccc;
+}
+.table-price .box-price h2{
+    margin: 25px 0px 5px;
+    font-size: 25px;
+}
+.table-price .box-price .companyName
+{
+    font-size: 20px;
+    margin-top: 5px;
+    display: inline-block;
+}
+.table-price .box-price .checkspan{
+    font-size: 16px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.table-price .box-price .likes{
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #1a83ab;
+}
+.table-price .box-price span.likePresent{
+    width: 200px;
+    height: 25px;
+    background: #ddd;
+    display: inline-block;
+    border-radius: 5px;
+    text-align: left;
+}
+.table-price .box-price span.innerPresent{
+    height: 25px;
+    color: #000;
+    font-size: 19px;
+    display: inline-block;
+    background: #0cbdf3;
+    border-radius: 5px;
+    text-align: right;
+    padding-right: 10px;
+}
+.table-price .box-price div.center-block{
+    
+    height: 200px;
+}
+.table-price .box-price .price-order{
+    width: 100%;
+}
+.table-price .box-price .price{
+    width: 50%;
+    float: left;
+    background: #ddd;
+    height: 60px;
+    border-bottom-left-radius: 5px;
+    border-right: 2px solid #fff;
+    padding-left: 10px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    
+}
+.table-price .box-price .Order-now{
+    width: 50%;
+    float: left;
+    height: 60px;
+    background: #ddd;
+    border-bottom-right-radius: 5px;
+    text-align: center;
+    padding-left: 10px;
+    line-height: 50px;
+    font-weight: bold;
+    font-size: 17px;
+    
+}
+.table-price .box-price div img{
+   width: 61%;
+    height: 88%;
+}
+.table-price .box-price a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 17px;
+}
+.table-price .price-order p{
+    font-size: 17px;
+/*    text-align: center;*/
+}
+.link_product , .link_product:hover{
+    color: #000;
+}
+/* start menu bar frist part */
+.menu-bar{
+    float: left;
+    width: 20%;
+    background: #ddd;
+    height: 81%;
+    border-radius: 5px;
+    box-shadow: 2px 2px 23px #444;
+    padding: 10px;
+    position: fixed;
+    bottom: 2%;
+    overflow-y: scroll;
+}
+.menu-bar input[type="text"] {
+   
+    border: 0;
+    outline: 0;
+    width: 90%;
+    color: #ddd;
+    font-size: 16px;
+    padding: 8px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    border-radius: 7px;
+    background-color:#53d2e6;
+}
+.menu-bar i.search
+{
+    position: relative;
+    left: -30px;
+    font-size: 18px;
+    color: #eee;
+}
+.menu-bar div.price{
+    text-align: left;
+    margin-top: 10px;
+    font-size: 20px;
+    color: #488386;
+}
+.menu-bar .price-info{
+    margin-top: 25px;
+}
+.menu-bar .price-info .from{
+    margin-left: -13%;
+}
+.menu-bar .price-info input[type="number"]{
+    width: 30%;
+    border-radius: 3px;
+    border: none;
+    outline: 0;
+    padding-left: 3px;
+}
+
+.Subcategory{
+    text-align: left;
+    margin-top: 15px;
+}
+.Subcategory i
+{
+    cursor: pointer;
+    font-size: 20px;
+    margin-right: 5px;
+}
+.Subcategory span{
+    font-size: 18px;
+}
+.displayMenu p,
+.displayMenu2 p
+{
+    margin-left: 22px;
+}
+.navbar-inverse
+{
+    background-color: #5fcfe8;
+}
+.displayMenu input[type="checkbox"],
+.displayMenu2 input[type="checkbox"]
+{
+    position: relative;
+    top: 20px;
+}
+
+.clickable {
+    cursor: pointer;
+}
+/* end menu bar frist part */

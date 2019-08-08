@@ -1,0 +1,128 @@
+body{
+    padding-top: 70px;
+}
+a{
+    text-decoration: none;
+}
+.scroll-top{
+    color: #DDD;
+    background: #272727;
+    text-align: center;
+    position: fixed;
+    right: 15px;
+    bottom: 10px;
+    z-index: 9999;
+    border: 3px solid #d04949;
+    border-radius: 50%;
+    padding: 7px;
+    display: none;
+    cursor: pointer;
+}
+.scroll-top:hover{
+    background: #444;
+}
+.fa-3x{
+    font-size: 2em;
+}
+
+/* start nav */
+.navbar>.container .navbar-brand, 
+.navbar>.container-fluid .navbar-brand{
+    margin-left: 80px;
+    padding: 25px;
+    color: #eee;
+    font-size: 40px;
+}
+
+.navbar{
+    min-height: 70px;
+}
+.navbar-toggle{
+    margin-top: 18px;
+}
+.nav-button{
+    margin-top: 20px;
+    margin-right: 80px;
+    font-size: 15px;
+    width: 200px;
+    padding: 5px;
+    float: right;
+    background: #eee;
+    border: 0;
+    outline: 0;
+    border-radius: 20px;
+    color: #333;
+    font-weight: bold;
+    height: 35px;
+}
+.nav-button a{
+    text-decoration: none;
+    color: #286090;
+}
+.nav-button a:hover,
+.nav-button:hover a 
+{
+    text-decoration: none;
+    color: #FFF;
+}
+.navbar-inverse {
+    background-color: #5fcfe8;
+}
+/* end nav */
+/************** Start  showContent ******************/
+.showContent
+{
+    width: 90%;
+    margin: 30px auto;
+    background: #eee;
+    padding: 20px;
+    border-radius: 5px;
+}
+.showContent h2{
+    font-size: 20px;
+}
+.showContent span
+{
+ color: rgba(0,0,0,0.4);
+}
+.table{
+    overflow-x: scroll;
+    height: 450px;
+}
+.showContent table{
+    margin-top: 20px;
+    width: 100%;
+    overflow-x: scroll;
+    
+}
+.showContent button
+{
+    width: 140px;
+    outline: 0;
+    background: none;
+    border: none;
+}
+th{
+    background: #eae9e9;
+    padding: 25px;
+}
+td
+{
+    text-align: center;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.showContent td,tr{
+    height: 120px;
+  background: #fff;
+    
+}
+.carousel-inner>.item>a>img, .carousel-inner>.item>img,
+.img-responsive, .thumbnail a>img, .thumbnail>img{
+    
+    display: block;
+    max-width: 63%;
+    height: 120%;
+    margin: auto;
+}
+/************** end  showContent ********************/

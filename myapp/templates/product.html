@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Oddy E-Market</title>
+        <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/static/css/font-awesome.min.css">
+        <link rel="stylesheet" href="/static/css/review.css">
+        <link rel="shortcut icon" href="/static/images/stylish-strapless-dress-with-belt-and-petticoat_318-43885.jpg">
+        <!--[if lt IE 9]>
+        <script src="/static/js/html5shiv.min.js"></script>
+        <script src="/static/js/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <nav class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="main">Oddy E-Market</a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <button class="btn btn-primary nav-button">Order Now</button>
+            </div>
+        </nav>
+        
+        <div class="scroll-top">
+            <i class="fa fa-chevron-up fa-3x"></i>
+        </div>
+        
+        <!--Sart product section-->
+        <div class="container reviewProduct">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-xs-7">
+                            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner">
+
+                                </div>
+                                <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                                  <span class="glyphicon glyphicon-chevron-left"></span>
+                                </a>
+                                <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                                  <span class="glyphicon glyphicon-chevron-right"></span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xs-5">
+                            <div class="priceBox">
+                                <h2 class="textPrimary"></h2>
+                                <span class="companySpan"></span>
+                                <div class="priceProduct"></div>
+                                <div class="likesIcons">
+                                     <i class="fa fa-thumbs-up fa-lg"></i>
+                                     <span class="likePresent">
+                                         <span class="innerSpan"></span>
+                                     </span>
+                                     <i class="fa fa-thumbs-down fa-lg"></i>
+                                </div>
+                                <button class="btn btn-primary orderNow">Order Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="tableContent">
+                        <table>
+
+                        </table>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-12">
+                    <hr class="line">
+                </div>
+            </div>
+            
+            <div class="row section2">
+                <div class="col-lg-12">
+                    <div class="row">
+                        <div class="col-lg-6 productReview">
+                            <h2>Product Reviews</h2>
+                            <div class="scrollComment">
+
+                            </div>
+                            
+                        </div>
+                        <div class="col-lg-6 tell-us">
+                            <h2>Tell Us Your Opinion</h2>
+                            <form action="">
+                                <input class="name" type="text" name="Name" placeholder="Your Name">
+                                <textarea required class="comment" name="comment"  cols="30" rows="10" placeholder="Your Comment Here"></textarea>
+                                <button onclick="addCommentClicked(this)">SUBMIT</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <!--End product section-->
+        <script src="/static/js/jquery-3.1.1.min.js"></script>
+        <script src="/static/js/bootstrap.min.js"></script>
+        <script src="/static/js/product.js"></script>
+    </body>
+</html>
